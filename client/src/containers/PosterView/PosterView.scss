@@ -1,0 +1,23 @@
+$break-small: 768px;
+
+.poster-view {
+    padding: 50px;
+
+    .search-input {
+        width: 200px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .posters {
+        margin-top: 15px;
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        @media screen and (max-width: $break-small) {
+            grid-template-columns: auto auto;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export const SERVER_URL = 'https://aviaa-portal-dev.appspot.com';
